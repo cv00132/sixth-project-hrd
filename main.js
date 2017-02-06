@@ -9,7 +9,7 @@ function clock() {
   var seconds = time.getSeconds().toString(16);
 
 
-var timer =  "#" + hours + minutes + seconds;
+var timer =  "#" + ("0" + hours).slice(-2) + ("0" + minutes).slice(-2) + ("0" + seconds).slice(-2);
 var chameleonBG = "#" + hours + minutes + seconds;
 
 display.innerHTML = timer;
