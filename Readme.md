@@ -20,4 +20,4 @@ Javascript
 3. Modified counter to display hex code instead of time
 
 
-https://github.com/cv00132/sixth-project
+https://cv00132.github.io/sixth-project-hrd
